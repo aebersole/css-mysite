@@ -1,4 +1,8 @@
-/**Element Selectors**/
+/********TAG SELECTORS********/
+
+a {
+  color: #66bfbf
+}
 
 body {
   margin: 0;
@@ -6,24 +10,33 @@ body {
   font-family: "Merriweather", serif;
 }
 
-div {
-  background-color: #e4f9f5;
-}
-
 h1 {
-  margin-top: 0;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  color: #66bfbf;
   font-family: "Sacramento", cursive;
+  line-height: 2;
 }
 
 h2 {
+  font-size: 1.75rem;
   font-family: "Montserrat", sans-serif;
+  color: #66bfbf
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
+  color: #11999e;
 }
 
-/**Class Selectors**/
+hr {
+  border-style: dotted none none none;
+  border-color: grey;
+  border-width: 5px;
+  width: 10%;
+}
+
+/********CLASS SELECTORS********/
 
 .bottom-cloud {
   position: absolute;
@@ -31,18 +44,25 @@ h3 {
   bottom: 300px;
 }
 
-.bottomcontainer {
-  background-color: blue;
-  width: 200px;
-  height: 200px;
+.profile-picture {
+  margin-top: 50px;
+  height: 150px;
 }
 
-.middlecontainer {
-  background-color: aqua;
-  width: 200px;
-  height: 200px;
+.skills-image {
+  height: 140px;
 }
-.topcontainer {
+
+.skills-images-second {
+  height: 120px;
+}
+
+.subtitle {
+  font-weight: normal;
+  line-height: 2;
+}
+
+.top-container {
   background-color: #e4f9f5;
   position: relative;
   padding-top: 100px;
