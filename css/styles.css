@@ -1,75 +1,134 @@
 /********TAG SELECTORS********/
 
-/**
 a {
   color: #11999e;
+  font-family: "Merriweather", serif;
+  margin: 10px 20px;
+  text-decoration: none;
 }
-**/
+
+a:hover {
+  color: #eaf6f6;
+}
+
 body {
+  color: #40514e;
+  font-family: "Merriweather", serif;
   margin: 0;
   text-align: center;
-  font-family: "Merriweather", serif;
 }
 
 h1 {
-  margin: 50px auto 0 auto;
-  font-size: 5.625rem;
   color: #66bfbf;
   font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  font-weight: normal;
+  margin: 50px auto 0 auto;
 }
 
 h2 {
+  color: #66bfbf;
   font-size: 1.75rem;
   font-family: "Montserrat", sans-serif;
-  color: #66bfbf;
+  padding-bottom: 10px;
 }
 
 h3 {
-  font-family: "Montserrat", sans-serif;
   color: #11999e;
+  font-family: "Montserrat", sans-serif;
 }
 
 hr {
   border-style: dotted none none none;
-  border-color: grey;
-  border-width: 5px;
-  width: 10%;
+  border-color: #eaf6f6;
+  border-width: 6px;
+  margin: 75px auto;
+  width: 7%;
+}
+
+p {
+  line-height: 2;
 }
 
 /********CLASS SELECTORS********/
 
 .bottom-cloud {
-  position: absolute;
-  left: 300px;
   bottom: 300px;
+  left: 250px;
+  position: absolute;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.btn {
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+  background-color: #599bb3;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 8px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+  background-color: #408c99;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.middle-container {
+  margin: 100px 0;
 }
 
 .mountain {
-  width: 40%;
+  vertical-align: middle;
 }
 
 .profile-picture {
   height: 125px;
-  margin-top: 50px;
-}
-
-.python-img {
-  margin-left: 2px;
 }
 
 .skills-image {
-  height: 80px;
   float: left;
+  height: 70px;
   margin-right: 30px;
 }
 
 .skills-images-second {
-  height: 70px;
   float: right;
+  height: 70px;
 }
 
 .skill-row {
-  line-height: 2;
   margin: 100px auto 100px auto;
   text-align: left;
   width: 50%;
@@ -87,6 +146,6 @@ hr {
 
 .top-cloud {
   position: absolute;
-  right: 300px;
-  top: 50px;
+  right: 250px;
+  top: 90px;
 }
