@@ -1,6 +1,7 @@
 /********TAG SELECTORS********/
 
-/**a {
+/**
+a {
   color: #11999e;
 }
 **/
@@ -43,17 +44,35 @@ hr {
   bottom: 300px;
 }
 
+.mountain {
+  width: 40%;
+}
+
 .profile-picture {
+  height: 125px;
   margin-top: 50px;
-  height: 150px;
+}
+
+.python-img {
+  margin-left: 2px;
 }
 
 .skills-image {
-  height: 140px;
+  height: 80px;
+  float: left;
+  margin-right: 30px;
 }
 
 .skills-images-second {
-  height: 120px;
+  height: 70px;
+  float: right;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
 }
 
 .subtitle {
